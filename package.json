@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "cypress": "^13.16.1"
+  },
+  "dependencies": {
+    "@types/car-names": "^1.10.2",
+    "cpf-cnpj-validator": "^1.0.3",
+    "telefone": "^1.2.4"
+  }
+}
