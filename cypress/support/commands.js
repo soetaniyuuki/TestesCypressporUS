@@ -29,6 +29,7 @@
   Cypress.Commands.add('Login', (email, senha) => {
     cy.get('input#login').should('be.visible').and('be.enabled').click().type(email);
     cy.get('input#senha').should('be.visible').and('be.enabled').type(senha);
+    cy.wait(1000)
     cy.get('button[type="submit"]').click();
     });
 
